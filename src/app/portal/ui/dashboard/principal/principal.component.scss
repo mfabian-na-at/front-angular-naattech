@@ -1,0 +1,69 @@
+@import '../../../../../theme.scss';
+
+/* Contenedores */
+.icon-accent-color{
+    color: $color-accent;
+}
+.mat-drawer{
+    background-color: $color-background-secundary;
+    width: 182px;
+}
+
+.mat-drawer-content{
+    background-color: $color-background-principal;
+}
+
+.mat-drawer-container{
+    height: 100%;
+}
+
+.text-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.router-container{
+    padding: 30px 17px 26px 16px;
+}
+
+/* Images */
+.img-small-logo{
+    width: 150px;
+    margin: 40px 16px 0px;
+}
+
+/* Margen de items en el menu */
+.margin-items{
+    margin: 20px 0px;
+}
+
+/* Menu */
+ul{
+    padding: 0px 5px;
+}
+li{
+    margin: 30px 16px 10px 14px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 17px;
+    text-decoration: none;
+}
+a{
+    color: $color_inactive;
+    display: flex;
+    align-items: center;
+}
+
+li.active > a{
+    color: $color-accent;
+}
+
+/* Textos */
+.p18-left{
+    padding-left: 18px;
+}

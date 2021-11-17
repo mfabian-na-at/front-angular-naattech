@@ -1,0 +1,35 @@
+@import '../../../../../theme.scss';
+
+/* Containers*/
+.general-container{
+    display: grid;
+    justify-items: center;
+}
+
+.card-container{
+    width: 437px;
+    height: 195px;
+}
+
+/* Texts */
+h2{
+    margin: 20px 16px 10px;
+    color: $color-texts-title;
+    text-align: center;
+}
+
+.txt-description{
+    margin: 0px 16px;
+    color: $color-text-description;
+}
+
+/* Images */ 
+img{
+    margin: 247px 0px 40px 0px;
+}
+
+/* Buttons */
+button{
+    width: 227px;
+    margin: 33px 105px 0px;
+}
